@@ -1,45 +1,43 @@
-[![browser support](https://ci.testling.com/nk-components/math-fit.png)](https://ci.testling.com/nk-components/math-fit)
-
 # math-fit
 
-  Calculates the size and the position of a target to fit a container.
+[![browser support](https://ci.testling.com/nk-components/math-fit.png)](https://ci.testling.com/nk-components/math-fit)
+
+Calculates the size and the position of a target to fit a container.
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+Install with [component(1)](http://component.io):
 
-    $ component install nk-components/math-fit
-
-## API
-
-### cover(target, container)
-  * target: `{ width: float, height: float }` or `{ w: float, h: float }`
-  * container: `{ width: float, height: float }` or `{ w: float, h: float }`
-
-  Returns `{ left: float, top: float, width: float, height: float, scale: float }`
-
-### contain(target, container)
-  * target: `{ width: float, height: float }` or `{ w: float, h: float }`
-  * container: `{ width: float, height: float }` or `{ w: float, h: float }`
-
-  Returns `{ left: float, top: float, width: float, height: float, scale: float }`
+```bash
+$ component install nk-components/math-fit
+```
 
 ## Usage
 
-    var fit = require('math-fit');
-    var target = {
-      w: 200,
-      h: 100
-    };
-    var parent = {
-      w: 200,
-      h: 200
-    };
+```js
+var fit = require('math-fit');
+var target = {
+  w: 200, // or width: 200
+  h: 100 // or height: 100
+};
+var parent = {
+  w: 200, // or width: 200
+  h: 200 // or height: 200
+};
 
-    var coverValues = fit(target, parent);
-    // same as fit.cover(target, parent);
+var coverValues = fit(target, parent); // same as fit.cover(target, parent);
+//
+// >>
+// {
+//  left: float,
+//  top: float,
+//  width: float,
+//  height: float,
+//  scale: float
+// }
 
-    var containValues = fit.contain(target, parent);
+var containValues = fit.contain(target, parent);
+```
 
 ## License
 
