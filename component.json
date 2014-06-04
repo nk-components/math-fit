@@ -2,8 +2,12 @@
   "name": "math-fit",
   "repo": "nk-components/math-fit",
   "description": "Calculates the size and the position of a target to fit a container.",
-  "version": "0.0.1",
-  "keywords": ["math", "fit", "parent"],
+  "version": "0.0.2",
+  "keywords": [
+    "math",
+    "fit",
+    "parent"
+  ],
   "license": "MIT",
   "main": "index.js",
   "development": {
