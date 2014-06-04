@@ -29,13 +29,18 @@
     "harness": "mocha",
     "browsers": [
       "ie/8..latest",
-      "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
-      "android-browser/latest"
+      "firefox/4.0",
+      "firefox/latest",
+      "firefox/nightly",
+      "chrome/10",
+      "chrome/latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
     ],
     "scripts": [
       "build/*.js",
