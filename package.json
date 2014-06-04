@@ -37,7 +37,6 @@
       "ipad/6",
       "android-browser/latest"
     ],
-    "preprocess": "make build",
     "scripts": [
       "build/*.js",
       "test/*.js"
