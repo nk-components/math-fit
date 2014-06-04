@@ -3,6 +3,8 @@
 
 module.exports = exports = cover;
 
+exports.cover = cover;
+
 function cover(target, container) {
   return calculate(target, container, true);
 }
