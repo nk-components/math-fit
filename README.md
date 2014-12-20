@@ -1,10 +1,14 @@
-# math-fit
-
-[![browser support](https://ci.testling.com/nk-components/math-fit.png)](https://ci.testling.com/nk-components/math-fit)
+# math-fit [![browser support](https://ci.testling.com/nk-components/math-fit.png)](https://ci.testling.com/nk-components/math-fit)
 
 Calculates the size and the position of a target to fit a container.
 
 ## Installation
+
+With [npm](http://npmjs.org) do:
+
+```bash
+$ npm install math-fit --save
+```
 
 Install with [component(1)](http://component.io):
 
@@ -41,4 +45,4 @@ var containValues = fit.contain(target, parent);
 
 ## License
 
-  The MIT License (MIT)
+MIT
