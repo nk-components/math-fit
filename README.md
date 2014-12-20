@@ -1,4 +1,4 @@
-# math-fit [![browser support](https://ci.testling.com/nk-components/math-fit.png)](https://ci.testling.com/nk-components/math-fit)
+# math-fit [![Build Status](https://travis-ci.org/nk-components/math-fit.svg)](https://travis-ci.org/nk-components/math-fit)
 
 Calculates the size and the position of a target to fit a container.
 
