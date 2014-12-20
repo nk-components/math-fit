@@ -25,6 +25,7 @@
     "watch": "onchange 'index.js' 'test/index.js' -- npm test"
   },
   "devDependencies": {
+    "browserify": "^7.0.3",
     "mocha": "^2.0.1",
     "mocha-phantomjs": "^3.5.2",
     "onchange": "0.0.2",
