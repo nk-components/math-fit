@@ -1,6 +1,6 @@
 {
   "name": "math-fit",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Calculates the size and the position of a target to fit a container.",
   "main": "index.js",
   "keywords": [
