@@ -10,9 +10,6 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "development": {
-    "component/assert": "*"
-  },
   "scripts": [
     "index.js"
   ]
